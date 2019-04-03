@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/searchRouteMenu"
+        android:orderInCategory="100"
+        app:showAsAction="never"
+        android:title="Search Route">
+
+    </item>
+    <item
+        android:id="@+id/searchBusMenu"
+        android:orderInCategory="100"
+        app:showAsAction="never"
+        android:title="Search Bus">
+
+    </item>
+    <item
+        android:id="@+id/contactMenu"
+        android:orderInCategory="100"
+        app:showAsAction="never"
+        android:title="Contact Us">
+
+    </item>
+    <item
+        android:id="@+id/shareMenu"
+        android:orderInCategory="100"
+        app:showAsAction="never"
+        android:title="Share">
+
+    </item>
+</menu>

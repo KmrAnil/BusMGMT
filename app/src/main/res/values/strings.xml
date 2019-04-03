@@ -1,0 +1,44 @@
+<resources>
+    <string name="app_name">BusMGMT</string>
+    <string-array name="station_array">
+        <item>Select</item>
+        <item>Ashok Nagar</item>
+        <item>Azadpur</item>
+        <item>Brigadier Hoshier Singh</item>
+        <item>Central Sector</item>
+        <item>Chandi Chownk</item>
+        <item>City Center Noida</item>
+        <item>Dwarka</item>
+        <item>Delhi</item>\
+        <item>HUND City</item>
+        <item>INA</item>
+        <item>Inderlok</item>
+        <item>Jamuna Bank</item>
+        <item>Jankpuri</item>
+        <item>Kashmiri Gate</item>
+        <item>Kriti Nagar</item>
+        <item>Nagloi</item>
+        <item>Nawada</item>
+        <item>Netaji Subash Palace</item>
+        <item>New Delhi</item>
+        <item>Noida Electric City</item>
+        <item>Pashim Bihar</item>
+        <item>Pitampura</item>
+        <item>Punjabi Bagh</item>
+        <item>Qutab Minar</item>
+        <item>Raj Bagh</item>
+        <item>Rajiv Chownk</item>
+        <item>Rajouri Garden</item>
+        <item>Rithala</item>
+        <item>Rohini</item>
+        <item>Samypur Badli</item>
+        <item>Shaheed Sthal Bs</item>
+        <item>Shivaji Park</item>
+    </string-array>
+
+
+
+
+
+
+</resources>

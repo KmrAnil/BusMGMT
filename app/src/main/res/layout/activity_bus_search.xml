@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff"
+    tools:context=".BusSearch">
+    <TextView
+        android:id="@+id/src"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginStart="10dp"
+        android:layout_marginLeft="34dp"
+        android:textColor="#000"
+        android:layout_marginTop="5dp"
+        android:text="Source"
+        android:textSize="25dp" />
+    <TextView
+        android:id="@+id/dest"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginStart="182dp"
+        android:textColor="#000"
+        android:layout_marginLeft="200dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="45dp"
+        android:text="Destination"
+        android:textSize="25dp" />
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:weightSum="100"
+        android:layout_margin="8dp"
+        android:id="@+id/ll"
+        android:layout_below="@+id/src"
+        android:orientation="horizontal">
+
+        <Spinner
+            android:id="@+id/source_spinner"
+            android:layout_width="200dp"
+            android:layout_weight="50"
+            android:autofillHints="Source"
+            android:layout_height="50dp" />
+        <Spinner
+            android:id="@+id/destination_spinner"
+            android:layout_width="200dp"
+            android:layout_weight="50"
+            android:autofillHints="Destination"
+            android:layout_height="50dp" />
+    </LinearLayout>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/ll"
+        android:id="@+id/search"
+        android:textSize="18dp"
+        android:layout_margin="8dp"
+        android:layout_centerHorizontal="true"
+        android:text="Search"
+        />
+
+    <TextView
+        android:id="@+id/routeTextbox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/search"
+        android:textColor="#000"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginStart="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="32dp"
+        android:text="Route is"
+        android:textSize="25sp" />
+    <ImageView
+        android:layout_width="300dp"
+        android:layout_height="280dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/bus" />
+
+
+
+
+</RelativeLayout>

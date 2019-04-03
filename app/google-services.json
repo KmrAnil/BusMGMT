@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "761046981192",
+    "firebase_url": "https://busmgmt-ba3ce.firebaseio.com",
+    "project_id": "busmgmt-ba3ce",
+    "storage_bucket": "busmgmt-ba3ce.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:761046981192:android:461bf705b58d3a12",
+        "android_client_info": {
+          "package_name": "com.busmgmt.anil4.busmgmt"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "761046981192-3eqlrbrncl9p2ghtdhruhpgn1cs2ek4k.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.busmgmt.anil4.busmgmt",
+            "certificate_hash": "5ee4c454230a98ae324f9e4d93a42ac8cd178154"
+          }
+        },
+        {
+          "client_id": "761046981192-si1mljgblndva5fvtd0ojilo0d32u6l6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDSks538wVCitRTv8zKD6GD-9WY4Mm_Pb0"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "761046981192-si1mljgblndva5fvtd0ojilo0d32u6l6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
